@@ -1,0 +1,82 @@
+{
+  "meta": {
+    "title": "El faro",
+    "tagline": "Un juego de ejemplo para LUMA 32"
+  },
+  "speakers": {
+    "tomas": "Tomás",
+    "marta": "Marta",
+    "leo": "Leo"
+  },
+  "place": {
+    "harbor": "El puerto",
+    "lighthouse": "El faro"
+  },
+  "quests": {
+    "light": {
+      "title": "Encender el faro",
+      "note": "Tomás no tiene cerillas secas. Marta, la del puesto de pescado, tiene.",
+      "done": "El faro vuelve a alumbrar el puerto."
+    }
+  },
+  "harbor": {
+    "intro": [
+      "Cae la tarde sobre el puerto.",
+      "El faro debería estar encendido ya, y sigue a oscuras."
+    ],
+    "house": "Huele a pescado frito y a leña.",
+    "crates": "Cajas de sardinas, vacías.",
+    "marta_idle": "Si buscas a Tomás, está en el faro. Hoy anda con la cabeza en las nubes.",
+    "marta_ask": [
+      "¿Cerillas secas? Tengo una caja, sí.",
+      "Pero no me puedo mover del puesto: mi gata, Bruma, se ha escapado y no aparece.",
+      "Suele esconderse al final del muelle. Tráemela y las cerillas son tuyas."
+    ],
+    "marta_wait": "Bruma es gris, con calcetines blancos. Mira al final del muelle.",
+    "marta_thanks": [
+      "¡Bruma! ¿Dónde te habías metido?",
+      "Toma, las cerillas. Y dile a Tomás que se las cuide mejor."
+    ],
+    "got_matches": "Te guardas la caja de cerillas.",
+    "marta_after": "Esta noche cenamos con luz. ¡Gracias!",
+    "cat_found": [
+      "Bruma te mira, se estira y bosteza.",
+      "Luego echa a andar hacia el puesto de Marta, como si hubiera sido idea suya."
+    ],
+    "leo": "Estoy remendando la red. Si se rompe otra vez, mi abuelo me la hace remendar con los dientes.",
+    "leo_cat": "¿Una gata gris? Se ha metido por ahí, al final del muelle.",
+    "night": [
+      "La luz del faro barre el agua.",
+      "En el puerto se encienden las ventanas, una a una."
+    ]
+  },
+  "lighthouse": {
+    "tomas_hello": [
+      "¡Ah, una visita! Pasa, pasa.",
+      "Esta noche no puedo encender la lámpara: se me han mojado todas las cerillas."
+    ],
+    "tomas_ask": "¿Me harías el favor de conseguirme unas secas?",
+    "yes": "Claro",
+    "no": "Ahora no",
+    "tomas_no": "Ya. Bueno, aquí seguiré, a oscuras.",
+    "tomas_yes": "¡Gracias! Marta, la del puesto de pescado, siempre tiene alguna caja.",
+    "tomas_wait": "Marta tiene cerillas, seguro. Su puesto está junto a las casas.",
+    "tomas_go": "¿Las tienes? ¡Rápido, a la lámpara!",
+    "strike": "Frotas una cerilla. La mecha prende a la primera.",
+    "tomas_lit": "Ahí está. Ningún barco se perderá esta noche.",
+    "tomas_after": "Mira qué bien alumbra."
+  },
+  "obj": {
+    "none": "Nada que hacer ahora mismo.",
+    "lighthouse": "Ve al faro, al este del puerto.",
+    "marta": "Pide cerillas a Marta, en el puesto de pescado.",
+    "cat": "Busca a Bruma, la gata de Marta, al final del muelle.",
+    "marta_back": "Vuelve con Marta.",
+    "lamp": "Enciende la lámpara del faro."
+  },
+  "credits": {
+    "thanks": "Gracias por jugar",
+    "made": "Hecho con",
+    "who": "LUMA 32"
+  }
+}
